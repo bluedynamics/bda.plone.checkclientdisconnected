@@ -31,8 +31,6 @@ Example::
 	/path/to/plone/bin/instance02 = 127.0.0.1:8081
 	/path/to/plone2/bin/instance = 127.0.0.1:8180
 
-
-
 	$./bin/checkmulticlient etc/clientlist.cfg 
 
 

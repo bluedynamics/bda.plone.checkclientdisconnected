@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '1.0'
+version = '1.0beta'
 shortdesc = 'checks and restarts plone 3 zeo-clients if disconnected'
 longdesc = " "
 longdesc =  open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()  

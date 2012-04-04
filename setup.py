@@ -13,7 +13,7 @@ setup(name='bda.plone.checkclientdisconnected',
       description=shortdesc,
       long_description=longdesc,
       classifiers=[
-            'Development Status :: Beta',
+            'Development Status :: 4 - Beta',
             'License :: OSI Approved :: BSD-simplified',
             'Operating System :: OS Independent',
             'Programming Language :: Python', 

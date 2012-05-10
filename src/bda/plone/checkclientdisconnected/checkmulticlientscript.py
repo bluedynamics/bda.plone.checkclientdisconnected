@@ -21,7 +21,7 @@ def run():
     
     client = CheckMultiClient(ns.configfile[0],ns.quiet)
     if ns.status:
-        print '/n'.join(client.status())
+        print '/n'.join(str(client.status()))
     else:
         client()
 

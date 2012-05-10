@@ -32,6 +32,7 @@ setup(name='bda.plone.checkclientdisconnected',
       zip_safe=False,
       install_requires=[
             'setuptools',   
+            'argparse',
       ],
 
       entry_points={

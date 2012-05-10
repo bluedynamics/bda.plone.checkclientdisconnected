@@ -43,9 +43,10 @@ class CheckMultiClient(object):
         for path, address in self.config.items("zeo-clients"):
             client = CheckSingleClient(path, address, self.quiet)
             client()
-
-            
-                        
-
-             
         
+    def status(self):
+        for path, address in self.config.items("zeo-clients"):
+            client = CheckSingleClient(path, address, self.quiet)
+            return path, address, client.status()            
+        
+

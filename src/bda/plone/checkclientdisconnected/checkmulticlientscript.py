@@ -20,5 +20,8 @@ def run():
     ns = parser.parse_args()
     
     client = CheckMultiClient(ns.configfile[0],ns.quiet)
-    client()
+    if ns.status:
+        print client.status()
+    else:
+        client()
 

@@ -13,8 +13,7 @@ parser.add_argument('--status', '-s', action="store_true", default=False,
                    help='prints the status of the zeo-client')
 
 parser.add_argument('configfile', nargs=1,
-                   help='enter the path to your instance\n'
-                        'example: example/bin/instance')
+                   help='path to configuration file')
 
 
 def run():
